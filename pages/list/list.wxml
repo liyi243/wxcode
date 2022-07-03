@@ -11,4 +11,17 @@
   <view>B</view>
   <view>C</view>
 </scroll-view>
+<!-- 轮播图 -->
+<!-- ndicator-dots轮播图底部加小圆点 -->
+<swiper class="swiper-container" indicator-dots>
+  <swiper-item>
+    <view class="item">第一个轮播图</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">第二个轮播图</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">第三个轮播图</view>
+  </swiper-item>
+</swiper>
 
