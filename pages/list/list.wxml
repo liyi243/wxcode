@@ -24,4 +24,11 @@
     <view class="item">第三个轮播图</view>
   </swiper-item>
 </swiper>
+<!-- 常用主件text和rich-text -->
+<!-- user-select替换selectable<text selectable>长按选中</text> -->
+<!-- <rich-text nodes>渲染html字符串</rich-text> -->
+<view>
+  <text user-select>13800005056</text>
+  <rich-text nodes="<h1 style='color:red;'>标题<hq>"></rich-text>
+</view>
 
