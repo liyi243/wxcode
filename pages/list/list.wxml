@@ -31,4 +31,15 @@
   <text user-select>13800005056</text>
   <rich-text nodes="<h1 style='color:red;'>标题<hq>"></rich-text>
 </view>
-
+<!-- 通过type属性指定按钮颜色 -->
+<button>普通按钮</button>
+<button type="primary">主色调按钮</button>
+<button type="warn">警告按钮</button>
+<!-- size="mini"小尺寸按钮 -->
+<button size="mini">普通按钮</button>
+<button type="primary" size="mini">主色调按钮</button>
+<button type="warn" size="mini">警告按钮</button>
+<!-- plain镂空按钮 -->
+<button size="mini" plain>普通按钮</button>
+<button type="primary" size="mini" plain>主色调按钮</button>
+<button type="warn" size="mini"  plain>警告按钮</button>
